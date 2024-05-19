@@ -8,7 +8,7 @@ def find_remainder(number):
     if number > 0:
         return number % 10
     elif number < 10:
-        return -(number % 10 - 10)
+        return -(number % 10)
 
 last_num = find_remainder(number)
 
